@@ -32,7 +32,7 @@ public class NetworkExampleTest {
             assertEquals(Cloudlet.CloudletStatus.SUCCESS, cl.getStatus());
             switch (cl.getCloudletId()) {
                 case 0 -> assertEquals(160, cl.getActualCPUTime(), 0);
-                default -> fail("Unknown cloudlet id");
+                default -> fail("Unknown cloudlet id bla");
             }
         }
     }
